@@ -1,0 +1,14 @@
+assembling/*
+temp/*
+RETech_fixedDelta_1960.dta
+pat_lv.dta
+output/*.png
+output/admin/*
+data/startup_qtr_panel.dta
+
+# also using the local of this repo to prepare 
+# for MS data submission requirements. 
+# for purposes of github repo's clarity, keep 
+# it separated 
+
+readme.txt 
