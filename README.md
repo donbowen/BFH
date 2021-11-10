@@ -25,6 +25,9 @@ Replication requires three principle files:
 3. A startup-quarter panel (`startup_qtr_panel.dta`) for 1980-2010 with time-varying information on startups that receive at least one patent during the sample period. Please note that observations up through 2017 are in the dataset because our dependent variables were forward looking relative to our independent variables and available after 2010. This file is not included here, as it contains licensed data but email us if your institution has a license for VenturExpert, SDC, and Dealscan. 
 
 Please see the paper for details on the construction of the samples and measures. Questions can be directed to Donald Bowen, and pointers to errors or omissions, and corrections are welcome. 	
+
+We also include **`aggregate_measures.do`, which contains a Stata function to convert patent-level variables into group-time variables (e.g. firm-year, state-year, MSA-quarter).** We include the stocking function from our paper, which gets the group's average patent stats over the prior five years, after applying a 20% rate of depreciation. 
+
 	
 ## Updated patent-text measures and code to build them from Google Patents 
 
