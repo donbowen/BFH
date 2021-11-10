@@ -21,7 +21,7 @@ Please see the paper for details on the construction of the samples and measures
 Replication requires three principle files:	
 1. Stata code (`bfh_analysis.do`) to reproduce all tables and figures in the paper. 
 	- This uses the two key datasets described next plus some less important datasets in the "auxilliary" data subfolder and code in the subroutines folder. Results are stored in the output folder. [Click me to download everything you need to replicate the paper!](https://github.com/donbowen/BFH/archive/refs/heads/main.zip) 
-	- All estimation results are stored in one excel file (`output/bfh-tables.xlsx`) via a hacky (but useful!) Stata command. Doing it this way reduces file clutter and lets us quickly change formatting choices while writing the paper. A nice trick!
+	- All estimation results are stored in one excel file (`output/bfh-tables.xlsx`).
 2. Patent-level data with patents applied for between 1930 and 2010 and granted by 2013 **with many variables of interest, including a link to the startup**. 
 	- _This is not the raw data:_ All patent level variables are winsorized at the 1/99% level annually. The citation and KPSS variables are winsorized by grant year, and the remaining variables are winsorized by application year. If you are interested in raw data, please follow the big link above to the updated patent data files. 
 	- Because `pat_lv.dta` is **1.3GB**, it's not stored here. You can download it by (A) [Clicking this link](https://www.dropbox.com/s/xvr09mqayfz7akd/pat_lv.dta?dl=1) or (B) [Downloading this folder to your computer](https://github.com/donbowen/BFH/archive/refs/heads/main.zip) and running `bfh_analysis.do`, which starts by downloading what you need.
