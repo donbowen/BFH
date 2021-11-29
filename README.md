@@ -30,7 +30,7 @@ Replication requires three principle files:
 ## Using patent measures in your studies
 
 1. **`aggregate_measures.do` contains a Stata function to convert patent-level variables into group-time variables (e.g. firm-year, state-year, MSA-quarter).** We include the stocking function from our paper, which gets the group's average patent stats over the prior five years, after applying a 20% rate of depreciation. 
-2. **A companion repository ([`Patent-Text-Variables`](https://github.com/donbowen/Patent-Text-Variables)) is available containing EIGHT MORE YEARS of patent level RETech and Tech Breadth for patents granted through last year**, and will be updated annually. The componanion repo also includes code to 
+2. **A companion repository ([`Patent-Text-Variables`](https://github.com/donbowen/Patent-Text-Variables) (or [here](https://bowen.finance/bfh_data/)) is available containing EIGHT MORE YEARS of patent level RETech and Tech Breadth for patents granted through last year**, and will be updated annually. The componanion repo also includes code to 
 	- Download all google patent pages 
 	- Parse the patent text in those webpages into (cleaned) "bags of words" 
 	- Construct textual variables at the patent-level from word bags 
