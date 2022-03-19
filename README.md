@@ -1,19 +1,19 @@
 # RETech is "Rapidly Evolving Technology"
 
-This folder produces a replication of Rapidly Evolving Technologies and Startup Exits ([SSRN link](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3245839)) by [Donald Bowen](https://bowen.finance), [Gerard Hoberg](http://www-bcf.usc.edu/~hoberg/), and [Laurent Fresard](https://people.lu.usi.ch/fresal/), which is forthcoming in Management Science. _Please cite that study when using or referring to any data or code in this repository._ 
+This folder produces a replication of the analysis in Rapidly Evolving Technologies and Startup Exits ([SSRN link](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3245839)) by [Donald Bowen](https://bowen.finance), [Gerard Hoberg](http://www-bcf.usc.edu/~hoberg/), and [Laurent Fresard](https://people.lu.usi.ch/fresal/), which is forthcoming in Management Science. _Please cite that study when using or referring to any data or code in this repository._ 
 
 ---
 
 <p align="center"> :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star:  
 	<br> <br> 
 	<b> Most visitors of this page just want a patent-level dataset with RETech. </b>
-	<br><br>   <a href="https://github.com/donbowen/Patent-Text-Variables"><b>If so, follow this link, which covers patent applications through 2017!</b></a>
+	<br><br>   <a href="https://github.com/donbowen/Patent-Text-Variables"><b>If so, follow this link, which covers patent grants through 2020!</b></a>
 	<br> <br> :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star:   
 </p>
 
 ---
 
-Please see the paper for details on the construction of the samples and measures. Questions can be directed to Donald Bowen, and pointers to errors or omissions, and corrections are welcome. 	
+Please see the paper for details on the construction of the samples and measures. Questions can be directed to Donald Bowen, and pointers to errors or omissions, and corrections and suggestions are welcome. 	
 
 	
 ## Replication, plus data on patents and startups  
