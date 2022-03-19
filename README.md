@@ -7,7 +7,7 @@ This folder produces a replication of the analysis in Rapidly Evolving Technolog
 <p align="center"> :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star:  
 	<br> <br> 
 	<b> Most visitors of this page just want a patent-level dataset with RETech. </b>
-	<br><br>   <a href="https://github.com/donbowen/Patent-Text-Variables"><b>If so, follow this link, which covers patent grants through 2020!</b></a>
+	<br><br>   <a href="https://github.com/donbowen/Patent-Text-Variables"><b>If so, follow this link, which covers patent applications through 2017!</b></a>
 	<br> <br> :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star: :star:   
 </p>
 
