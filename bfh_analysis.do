@@ -77,20 +77,33 @@ Some stata packages are needed:
 * download larger data files that aren't in the repo by default
 ********************************************************************************
 		
-	local url1 "https://www.dropbox.com/s/4dhahoamwqg21gh/RETech_fixedDelta_1960.dta?dl=1"
-	local url2 "https://www.dropbox.com/s/xvr09mqayfz7akd/pat_lv.dta?dl=1"
+	local url1 "https://github.com/donbowen/BFH/releases/download/v2017/RETech_fixedDelta_1960.zip"
+	local url2 "https://github.com/donbowen/BFH/releases/download/v2017/pat_lv_dta.zip"
 	
 	* only download if you don't already have them
 	
 	cap confirm file "data/auxilliary/RETech_fixedDelta_1960.dta"
 	if _rc {
-		copy "`url1'" "data/auxilliary/RETech_fixedDelta_1960.dta"
+		copy "`url1'" "data/auxilliary/RETech_fixedDelta_1960.zip"
+		
+		cd data/auxilliary
+		unzipfile RETech_fixedDelta_1960.zip, replace 
+		cap erase RETech_fixedDelta_1960.zip
+		cd ../../
+		
 	}
 
 	cap confirm file "data/pat_lv.dta" 
 	if _rc {
-		copy "`url2'" "data/pat_lv.dta"
+		copy "`url2'" "data/pat_lv.zip"
+		
+		cd data
+		unzipfile pat_lv.zip, replace 
+		cap erase pat_lv.zip
+		cd ../
+		
 	}	
+		
 			
 ********************************************************************************
 * PAT LEVEL TABLES

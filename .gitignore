@@ -5,6 +5,9 @@ pat_lv.dta
 output/*.png
 output/admin/*
 data/startup_qtr_panel.dta
+data/vx_qtr_fund_flow.dta
+data/vx_startuplvl.dta
+data/licensed_data.rar
 
 # also using the local of this repo to prepare 
 # for MS data submission requirements. 
